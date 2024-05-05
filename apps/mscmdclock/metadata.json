@@ -4,10 +4,11 @@
   "icon": "cmd-clock.png",
   "version":"0.01",
   "description": "Clock based on cmd",
+  "type": "clock",
   "tags": "clock",
   "supports": ["BANGLEJS2"],
   "storage": [
     {"name":"cmd-clock.app.js","url":"cmd-clock.app.js"},
-    {"name":"cmd-clock.img","url":"cmd-clock-icon.js","evaluate":true}
+    {"name":"cmd-clock.img","url":"cmd-clock.icon.js","evaluate":true}
   ]
 }
