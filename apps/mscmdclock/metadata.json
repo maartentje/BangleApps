@@ -1,0 +1,13 @@
+{ "id": "mscmdclock",
+  "name": "CMD Clock",
+  "shortName":"CMD Clock",
+  "icon": "cmd-clock.png",
+  "version":"0.01",
+  "description": "Clock based on cmd",
+  "tags": "",
+  "supports": ["BANGLEJS2"],
+  "storage": [
+    {"name":"cmd-clock.app.js","url":"cmd-clock.js"},
+    {"name":"cmd-clock.img","url":"cmd-clock-icon.js","evaluate":true}
+  ]
+}
